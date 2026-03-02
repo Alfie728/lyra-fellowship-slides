@@ -12,7 +12,7 @@
   --bg-surface:  #111114;
   --bg-card:     #16161a;
   --bg-card-h:   #1c1c22;
-  --bg-code:     #0c0c10;
+  --bg-code:     #282a36;
   --tx:          #ede8df;
   --tx-2:        #8a8690;
   --tx-3:        #4e4b52;
@@ -567,18 +567,18 @@ nav {
   font-size: 0.8rem;
   line-height: 1.85;
   overflow-x: auto;
-  color: var(--tx);
+  color: #f8f8f2;
 }
 
-/* syntax theme */
-.kw  { color: var(--accent); }
-.fn  { color: var(--teal); }
-.str { color: var(--peach); }
-.cm  { color: #4a4650; font-style: italic; }
-.num { color: var(--coral); }
-.tp  { color: var(--lavender); }
-.op  { color: var(--tx-3); }
-.pr  { color: var(--tx); }
+/* syntax theme — Dracula */
+.kw  { color: #ff79c6; }
+.fn  { color: #50fa7b; }
+.str { color: #f1fa8c; }
+.cm  { color: #6272a4; font-style: italic; }
+.num { color: #bd93f9; }
+.tp  { color: #8be9fd; }
+.op  { color: #ff79c6; }
+.pr  { color: #f8f8f2; }
 
 /* inline code */
 .c {
