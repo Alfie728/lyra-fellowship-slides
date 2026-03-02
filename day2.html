@@ -635,16 +635,21 @@ tasks?.<span class="fn">map</span>((task) =&gt; (
   <div class="assignment reveal">
     <h3>// Today's assignment</h3>
     <ul>
-      <li>Build routers for every model in your schema — full CRUD</li>
-      <li>Add at least one filtered query (tasks by project, tasks by priority)</li>
-      <li>Add Zod input validation to every mutation</li>
-      <li>Test procedures using Prisma Studio to verify data</li>
+      <li>Design and implement a backend API surface for your Airtable-clone MVP
+      (choose your own router breakdown)</li>
+      <li>Support the core product loop:
+      read data, create records, edit records, and remove records</li>
+      <li>Keep it contract-first:
+      explicit <span class="c">.input()</span> and <span class="c">.output()</span> schemas on write paths</li>
+      <li>Add at least one useful query capability:
+      filtering or sorting that a real user would need</li>
+      <li>Return typed errors for invalid input or missing resources</li>
     </ul>
     <div class="stretch">
       <div class="stretch-label">Stretch</div>
       <ul>
-        <li>Add a <span class="c">protectedProcedure</span> and read the NextAuth T3 docs</li>
-        <li>Explore TanStack Query docs for Day 3</li>
+        <li>Add one bulk operation (reorder, batch update, or bulk delete)</li>
+        <li>Add access control for write paths (for example, <span class="c">protectedProcedure</span>)</li>
       </ul>
     </div>
   </div>

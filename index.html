@@ -744,17 +744,17 @@
   <div class="assignment reveal">
     <h3>// Today's assignment</h3>
     <ul>
-      <li>Design your project schema — at least 3 models with relations</li>
-      <li>Run migrations and verify they apply cleanly</li>
-      <li>Seed test data into your database</li>
-      <li>Write queries to verify your relations work</li>
-      <li>Explore Prisma Studio with your seeded data</li>
+      <li>Design the core data model for your Airtable-clone in <span class="c">schema.prisma</span>.</li>
+      <li>Define at least 3 related models with practical constraints.</li>
+      <li>Run <span class="c">prisma migrate dev</span> and confirm the migration runs from a clean DB</li>
+      <li>Seed realistic demo data that matches your chosen product shape</li>
+      <li>Use Prisma Studio to validate relational integrity and spot-check sample queries</li>
     </ul>
     <div class="stretch">
       <div class="stretch-label">Stretch</div>
       <ul>
-        <li>Read the Next.js App Router docs (file-based routing, page.tsx, layouts)</li>
-        <li>Experiment with nested includes and aggregations</li>
+        <li>Add ordering metadata for records you expect to sort/reorder often</li>
+        <li>Add audit metadata (<span class="c">createdById</span>, <span class="c">updatedAt</span>)</li>
       </ul>
     </div>
   </div>

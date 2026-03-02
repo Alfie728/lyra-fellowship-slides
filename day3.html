@@ -996,17 +996,21 @@ Key behavior
   <div class="assignment reveal" style="margin-top:3rem;">
     <h3>// Today's assignment</h3>
     <ul>
-      <li>Wire up your frontend to your tRPC routers</li>
-      <li>Display data with <span class="c">useQuery</span> — handle loading and error states</li>
-      <li>Create, update, and delete from the UI with <span class="c">useMutation</span></li>
-      <li>Build at least 2 complete features using the full loop</li>
-      <li>Focus on data flow — styling can be minimal</li>
+      <li>Build one primary Airtable-style screen for your chosen workflow</li>
+      <li>Wire reads with <span class="c">useQuery</span>:
+      at least two related datasets, with loading/error/empty states</li>
+      <li>Wire writes with <span class="c">useMutation</span>:
+      implement create, edit, and delete interactions for your core record type</li>
+      <li>After each mutation, keep UI/server in sync using
+      <span class="c">invalidateQueries</span> or <span class="c">setQueryData</span> intentionally</li>
+      <li>Demo a full flow live:
+      change data, refresh page, verify DB + UI stay consistent</li>
     </ul>
     <div class="stretch">
       <div class="stretch-label">Stretch</div>
       <ul>
-        <li>Add auth with NextAuth and protect a route</li>
-        <li>Add optimistic updates to your mutations</li>
+        <li>Add optimistic inline edit with rollback on failure</li>
+        <li>Add URL-driven filters (status/search) and include them in query keys</li>
       </ul>
     </div>
   </div>
