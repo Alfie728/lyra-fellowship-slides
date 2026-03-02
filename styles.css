@@ -587,7 +587,7 @@ nav {
   padding: 0.12em 0.45em;
   border-radius: 5px;
   background: var(--accent-dim);
-  color: var(--accent);
+  color: #c4b5fd;
 }
 
 /* ── CARDS ── */
